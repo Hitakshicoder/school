@@ -31,7 +31,7 @@ function gotposes(results,error){
         console.error(error);
     }
     if(results.length > 0){
-        console.log(results);
+        console.log(results); 
 
         leftWrist_x = results[0].pose.leftWrist.x;
         rightWrist_x = results[0].pose.rightWrist.x;
